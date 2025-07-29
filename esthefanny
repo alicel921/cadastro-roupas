@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Movimentação de Produtos</title>
+  <style>
+    body {
+      background: linear-gradient(135deg, #fafafa, #e0f2f1);
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    .container {
+      background-color: white;
+      width: 500px;
+      padding: 35px;
+      border: 2px solid #00796b;
+      border-radius: 14px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+      text-align: center;
+    }
+
+    .titulo {
+      color: #1e1e1e;
+      font-size: 22px;
+      font-weight: bold;
+      margin-bottom: 8px;
+    }
+
+    .linha {
+      width: 120px;
+      height: 2px;
+      background-color: #1e1e1e;
+      margin: 0 auto 25px auto;
+      border-radius: 50px;
+    }
+
+    .mensagem {
+      font-size: 14px;
+      color: #00796b;
+      font-style: italic;
+    }
+
+    .btn-voltar {
+      background-color: #004d40;
+      color: white;
+      border: none;
+      padding: 10px 25px;
+      font-size: 14px;
+      font-weight: bold;
+      border-radius: 8px;
+      margin-top: 25px;
+      cursor: pointer;
+    }
+
+    .btn-voltar:hover {
+      background-color: #00695c;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="titulo">Movimentação de Produtos</div>
+    <div class="linha"></div>
+
+    <p class="mensagem">Tela em construção. Campos serão adicionados na próxima tarefa.</p>
+
+    <button class="btn-voltar" onclick="alert('Botão apenas visual. Ainda não programado.')">Voltar</button>
+  </div>
+</body>
+</html>
